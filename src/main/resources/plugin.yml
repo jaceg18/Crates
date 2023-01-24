@@ -1,0 +1,11 @@
+name: Crates
+version: '${project.version}'
+main: io.github.jaceg18.crates.Crates
+api-version: 1.19
+softdepend: [HolographicDisplays]
+authors: [ ftJace ]
+description: Attempt at crates plugin
+commands:
+  crates:
+    description: Loads crate menu
+    usage: /<command>
